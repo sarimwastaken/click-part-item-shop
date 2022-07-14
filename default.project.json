@@ -19,14 +19,6 @@
       "DS2": {
         "$path": "DataStore2"
       }
-    },
-
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "ItemClient": {
-          "$path": "src/client"
-        }
-      }
     }
   }
 }

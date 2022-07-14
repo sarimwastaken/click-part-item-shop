@@ -33,6 +33,7 @@ end
 
 local function PlayerAdded(player: Player)
   local moneyStore = DataStore2("Money", player)
+  moneyStore:Get(100)
 
   print(moneyStore:Get())
 end
