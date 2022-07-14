@@ -1,0 +1,32 @@
+{
+  "name": "click-part-item-shop",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "ItemServer": {
+        "$path": "src/server"
+      }
+    },
+
+    "ServerStorage": {
+      "DS2": {
+        "$path": "DataStore2"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ItemClient": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
